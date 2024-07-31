@@ -1,0 +1,38 @@
+
+.projects-section {
+    padding: 2rem;
+    background-color: #f0f2f5;
+}
+
+.projects-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.ant-card {
+    border-radius: 10px;
+}
+
+.ant-card-hoverable {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ant-card-hoverable:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ant-card-cover img {
+    border-bottom: 1px solid #f0f2f5;
+}
+
+.ant-btn-link {
+    color: #1890ff;
+}
+
+.ant-btn-link:hover {
+    color: #40a9ff;
+    text-decoration: underline;
+}

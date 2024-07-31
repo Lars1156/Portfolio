@@ -1,0 +1,117 @@
+/* src/Component/cssFiles/home.css */
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+.social-links a:hover {
+    background: #0056b3;
+}
+
+.animated-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    color: #222;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.animated-title > div {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.animated-title > div div {
+    font-size: 3rem;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.animated-title > div div span {
+    display: block;
+}
+
+.animated-title > .text-top {
+    border-bottom: 2px solid #000;
+}
+
+.animated-title > .text-top div {
+    animation: showTopText 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    transform: translateY(100%);
+}
+
+.animated-title > .text-top div span:first-child {
+    color: #767676;
+}
+
+.animated-title > .text-bottom div {
+    animation: showBottomText 0.5s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    transform: translateY(-100%);
+}
+
+@keyframes showTopText {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes showBottomText {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+}

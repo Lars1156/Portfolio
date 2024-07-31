@@ -1,0 +1,42 @@
+/* src/Component/cssFiles/footer.css */
+.footer {
+    background-color: #ffffff; /* Set background color to white */
+    color: #333; /* Set text color to a dark shade for contrast */
+    padding: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    margin-bottom: 1.5rem;
+}
+
+.footer-section {
+    margin-bottom: 1rem;
+}
+
+.footer-title {
+    color: #333; /* Dark color for section titles */
+    margin-bottom: 0.5rem;
+}
+
+.social-media-icons {
+    margin-top: 0.5rem;
+}
+
+.social-media-icons .ant-btn-link {
+    font-size: 1.5rem;
+    color: #333; /* Dark color for social media icons */
+    margin: 0 0.5rem;
+}
+
+.social-media-icons .ant-btn-link:hover {
+    color: #1890ff; /* Blue color on hover for social media icons */
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #ddd; /* Light border color for separation */
+    padding-top: 1rem;
+}
