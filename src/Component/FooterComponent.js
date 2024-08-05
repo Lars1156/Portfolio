@@ -1,7 +1,7 @@
 import React from 'react';
 import { Layout, Typography, Row, Col, Button } from 'antd';
 import { GithubOutlined, LinkedinOutlined, TwitterOutlined, InstagramOutlined, FacebookOutlined } from '@ant-design/icons';
-import '../Component/cssFiles/footer.css'; // Create this CSS file for styling
+import '../Component/cssFiles/footer.css'; 
 
 const { Footer } = Layout;
 const { Text, Title } = Typography;

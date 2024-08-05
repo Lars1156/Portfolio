@@ -37,7 +37,7 @@ const About = () => {
                              <span>Company Name: ScaleFull Technologies LLP</span>
                         </Paragraph>
                         <Paragraph className="experience-info">
-                             <span>Website: <a href="https://www.abctech.com" target="_blank" rel="noopener noreferrer">abctech.com</a></span>
+                             <span>Website: <a href="https://scalefull.com/" target="_blank" rel="noopener noreferrer">scalefull.com</a></span>
                         </Paragraph>
                         <Paragraph className="experience-info">
                             <span>Position: Junior Web Developer</span>
